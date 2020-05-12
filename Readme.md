@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олег Костерев](https://up.htmlacademy.ru/htmlcss/28/user/1291145).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan)
 
 ---
 
