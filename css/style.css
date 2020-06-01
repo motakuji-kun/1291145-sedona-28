@@ -1,0 +1,29 @@
+/* Variables */ 
+
+
+:root {
+    --basic-white: #ffffff;
+    --basic-black: #000000;
+    --basic-light-blue: #81B3D2;
+    --basic-background: #888888;
+    --special-background:#eeeeee;
+    --basic-brown:#766357;
+}
+
+
+/* Global */
+
+
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-background);
+
+}
