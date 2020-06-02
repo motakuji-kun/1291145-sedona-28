@@ -4,23 +4,22 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="normalize.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="index-header">
-
-      <nav>
+      <nav class="index-navigation">
         <a href="index.html" class="index-logo">
           <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип сайта Седона">
-        </a>
-        <ul>
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
-        </ul>
+        </a> 
+          <ul class="navigation-list">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="catalog.html">Гостиницы</a></li>
+          </ul>
       </nav>
     </header>
 
@@ -32,10 +31,10 @@
       
 
       <section class="welcome-index">
-        <p>Седона — небольшой городок в Аризоне,<br>
-             заслуживающий большего!
+        <p><div class="sedona-arizona">Седона — небольшой городок в Аризоне,<br>
+             заслуживающий большего!</div>
         </p>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <p><div class="five-reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</div></p>
       </section>
 
       <section class="reasons-list">
@@ -103,19 +102,19 @@
 
       <section class="hotel-search">
         <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки,
-         и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <div class="enter-date"><p>Укажите предполагаемые даты поездки,<br>
+         и мы покажем вам лучшие предложения гостиниц в седоне</p></div>
 
-         <button type="button">Поиск гостиницы в седоне</button>
+         <button type="button" class="search-button">Поиск гостиницы в седоне</button>
          
          <form class="hotel-found" method="post" action="https://echo.htmlacademy.ru">
           <p>
            <label for="arrival_date_id">Дата заезда:</label>
-           <input type="text" name="arrival_date" id="arrival_date_id" value="2017-04-24">
+           <input type="text" name="arrival_date" id="arrival_date_id" value="24 апреля 2017">
           </p>
           <p>
             <label for="departure_date_id">Дата выезда:</label>
-            <input type="text" name="departure_date" id="departure_date_id" value="2017-07-04">
+            <input type="text" name="departure_date" id="departure_date_id" value="4 июля 2017">
            </p>
            <p>
              <label for="adults_amount_id">Взрослые:</label>
@@ -150,9 +149,9 @@
 
         <div class="social-networks">
           <ul>
-            <li><a href="#">Твиттер</a></li>
-            <li><a href="#">Файсбук</a></li>
-            <li><a href="#">Ютуб</a></li>
+            <li class="twitter"><a href="#"></a></li>
+            <li  class="facebook"><a href="#"></a></li>
+            <li class="youtube"><a href="#"></a></li>
           </ul>
         </div>
 
