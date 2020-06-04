@@ -179,7 +179,7 @@ img {
     padding: 10px;
     text-align: right;
     background-color: var(--background-special-grey);
-    background-image: url(/img/star.svg);
+    background-image: url("../img/star.svg");
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
@@ -253,7 +253,7 @@ img {
 
 
 .hotel-found > p > input[type=text] {
-    background-image: url(/img/calendar.svg);
+    background-image: url("../img/calendar.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -312,20 +312,20 @@ img {
 
 
 .twitter {
-    background-image: url(/img/twitter.svg);
+    background-image: url("../img/twitter.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .facebook {
-    background-image: url(/img/fb-icon.svg);
+    background-image: url("../img/fb-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
 .youtube {
-    background-image: url(/img/youtube.svg);
+    background-image: url("../img/youtube.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
