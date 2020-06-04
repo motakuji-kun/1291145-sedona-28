@@ -81,7 +81,7 @@ img {
 
 
 .welcome-sedona {
-    background-image: url(/img/welcome-background-index.jpg);
+    background-image: url("../img/welcome-background-index.jpg");
     background-color: var(--basic-white);
     background-repeat: no-repeat;
     background-position: center;
@@ -212,12 +212,14 @@ img {
 
 
  .search-button  {
+    padding: 20px;
     font-family: inherit;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
     color: var(--basic-white);
     background-color: var(--basic-brown-peace);
+    border: none;
 }
 
 
@@ -335,15 +337,3 @@ img {
     font-size: 14px;
     line-height: 26px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
